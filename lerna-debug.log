@@ -1,0 +1,20 @@
+0 silly argv {
+0 silly argv   _: [ 'import' ],
+0 silly argv   lernaVersion: '8.1.2',
+0 silly argv   '$0': 'C:\\Program Files\\nvm\\nodejs\\node_modules\\lerna\\dist\\cli.js',
+0 silly argv   dir: '../a/03-pizza-menu'
+0 silly argv }
+1 notice cli v8.1.2
+2 verbose packageConfigs Resolving packages based on package.json "workspaces" configuration.
+3 verbose rootPath D:\workspace\Modern-React-with-Redux
+4 error Error: Command failed with exit code 128: git rev-parse HEAD
+4 error fatal: ambiguous argument 'HEAD': unknown revision or path not in the working tree.
+4 error Use '--' to separate paths from revisions, like this:
+4 error 'git <command> [<revision>...] -- [<file>...]'
+4 error HEAD
+4 error     at makeError (D:\workspace\Modern-React-with-Redux\node_modules\execa\lib\error.js:59:11)
+4 error     at module.exports.sync (D:\workspace\Modern-React-with-Redux\node_modules\execa\index.js:186:17)
+4 error     at Object.execSync (D:\workspace\Modern-React-with-Redux\node_modules\lerna\dist\index.js:142:31)
+4 error     at ImportCommand.execSync (D:\workspace\Modern-React-with-Redux\node_modules\lerna\dist\index.js:7025:31)
+4 error     at ImportCommand.getCurrentSHA (D:\workspace\Modern-React-with-Redux\node_modules\lerna\dist\index.js:7019:21)
+4 error     at ImportCommand.initialize (D:\workspace\Modern-React-with-Redux\node_modules\lerna\dist\index.js:6996:35)
